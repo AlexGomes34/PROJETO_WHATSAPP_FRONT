@@ -1,0 +1,86 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: whitesmoke;
+    height: 100vh;
+}
+
+/* MAIN */
+main{
+    display: flex;
+    flex-direction: row;
+    height: 100%;
+}
+.principal_contatos{
+    display: flex;
+    flex-direction: column;
+    background-color: red;
+    height: 100%;
+    width: 25%;
+}
+.usuario{
+    height: 70px;
+    background-color: blue;
+    place-content: center;
+    padding-left:10px;
+    padding-right:40px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.user-img{
+    height: 45px;
+    border-radius: 30px;
+    place-self: center;
+}
+.opcoes{
+    height: 30px;
+place-self: center;
+}
+.pesquisa{
+    background-color: green;
+    height: 60px;
+    place-content: center;
+}
+.campo-pesquisa{
+    background-color: whitesmoke;
+    height: 40px;
+    margin: 10px;
+    gap: 10px;
+    display: flex;
+    align-items: center;
+    padding-left: 15px;
+    border-radius: 10px;
+}
+.lupa{
+    height: 15px;
+}
+.pesq{
+    height: 30px;
+    border: none;
+    background-color: whitesmoke;
+}
+.pesq:focus{
+    outline: none;
+}
+.contato{
+    background-color: bisque;
+    height: 85px;
+    display: flex;
+    align-items: center;
+    padding-left: 20px;
+    gap: 10px;
+}
+.perfil-contato{
+    height: 60px;
+    border-radius: 40px;
+}
+.nome-contato{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    font-size: 1.1rem;
+
+}
