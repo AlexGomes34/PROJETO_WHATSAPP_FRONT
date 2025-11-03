@@ -90,6 +90,7 @@ place-self: center;
     background-color: #dddbd1;
     height: 100%;
     width: 75%;
+    justify-content: space-between;
 }
 .contato2{
     height: 70px;
@@ -100,4 +101,79 @@ place-self: center;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+}
+
+.mend{
+    display: flex;
+    flex-direction: column;
+}
+
+.mensagem{
+    display: flex;
+    background-color: white;
+    width: 300px;
+    margin: 30px;
+    padding: 10px;
+    border-radius: 10px;
+    gap: 0;
+    flex-direction: column;
+}
+
+.mensagem.invertido{
+    flex-direction: row-reverse;
+    align-self: flex-end;
+}
+.mensagem.invertido div{
+    display: flex;
+    flex-direction: column;
+    text-align: right;
+}
+
+.nome-c{
+    font-size: 0.8rem;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.mensa{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.2rem;
+}
+.campo-texto{
+    display: flex;
+    flex-direction: column;
+    background-color: #ededed;
+    height: 100%;
+    width: 75%;
+}
+.aviao{
+    height: 15px;
+    place-self: center;
+    padding-right: 20px;
+}
+.pesquisa2{
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    height: 60px;
+    place-content: center;
+}
+.campo-pesquisa2{
+    background-color: whitesmoke;
+    height: 40px;
+    margin: 10px;
+    gap: 10px;
+    display: flex;
+    align-items: center;
+    padding-left: 15px;
+    border-radius: 10px;
+    justify-content: space-between;
+}
+.lupa2{
+    height: 15px;
+    padding-left: 20px;
+    padding-right: 10px;
+}
+.pesq2{
+    height: 30px;
+    border: none;
+    background-color: whitesmoke;
 }
