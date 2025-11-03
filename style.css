@@ -17,13 +17,13 @@ main{
 .principal_contatos{
     display: flex;
     flex-direction: column;
-    background-color: red;
+    background-color: white;
     height: 100%;
     width: 25%;
 }
 .usuario{
     height: 70px;
-    background-color: blue;
+    background-color: #ededed;
     place-content: center;
     padding-left:10px;
     padding-right:40px;
@@ -41,7 +41,7 @@ main{
 place-self: center;
 }
 .pesquisa{
-    background-color: green;
+    background-color: white;
     height: 60px;
     place-content: center;
 }
@@ -67,7 +67,7 @@ place-self: center;
     outline: none;
 }
 .contato{
-    background-color: bisque;
+    background-color: white;
     height: 85px;
     display: flex;
     align-items: center;
@@ -83,4 +83,21 @@ place-self: center;
     font-weight: 700;
     font-size: 1.1rem;
 
+}
+.mensagens{
+    display: flex;
+    flex-direction: column;
+    background-color: #dddbd1;
+    height: 100%;
+    width: 75%;
+}
+.contato2{
+    height: 70px;
+    background-color: #ededed;
+    place-content: center;
+    padding-left:10px;
+    padding-right:40px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
 }
